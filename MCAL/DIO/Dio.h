@@ -1,14 +1,9 @@
-Article type: Project
-Software UART
-Please Note
-This project IS NOT A TAKE HOME TASK and it must be submitted during the assessment time.
 
 
 
 
 
-
-
+//############# Dio.h ##############
 
 #ifndef DIO_H_
 #define DIO_H_
@@ -42,3 +37,6 @@ This project IS NOT A TAKE HOME TASK and it must be submitted during the assessm
  
  
  #endif //DIO_H_
+ 
+ 
+ //////////////////////////////////////////////////////////

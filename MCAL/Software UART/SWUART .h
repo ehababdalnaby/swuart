@@ -11,10 +11,17 @@
 
 
 
+
+
+//############# SWUART.h ##############
+
 #define TX 0
 #define RX 1
 #define UART_PORT A
 
+
+#define PARITY_OK  0
+#define PARITY_NOK  1
 
 /*
  * baudrate: is an input argument that describes baudrate that the UART needs to make the communications.
@@ -32,3 +39,6 @@
  void SWUART_recieve(uint8_t *data);
  
  #endif //SWUART_H_
+ 
+ 
+ //////////////////////////////////////////////////////////
