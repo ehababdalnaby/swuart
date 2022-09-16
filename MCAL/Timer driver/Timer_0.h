@@ -290,6 +290,6 @@ void Timer0_reset(void);
 *@param[out] void No output arguments.
 *@retval void	This function doesn't return anything.
 */
-void Timer0_delay_ms(uint32_t delay_ms);
+void Timer0_delay_ms(float64_t delay_ms);
 /**@}*/
 #endif /* TIMER_0_H_ */
